@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  line-height: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
+
+section {
+}
+
+.image.vase {
+  background-image: url(/images/vase.jpg);
+  background-color: #cae2ee;
+}
+.image.woman {
+  background-image: url(/images/woman.png);
+  background-color: #ffd602;
+}
+.image.house {
+  background-image: url(/images/house.jpg);
+  background-color: #ffd602;
+}
+
+.image.cake {
+  background-image: url(/images/cake.jpg);
+  display: block;
+  background-color: #feef7a;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+
+  background-color: #b0d5e5;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  display: none;
+}
+
+h2 {
+  font-family: Inter, "helvetica";
+  text-transform: uppercase;
+
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 79px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+
+  max-width: 850px;
+  margin: 0 auto;
+
+  position: absolute;
+  top: calc(100vh / 4);
+  left: calc(100vw / 2);
+
+  transform: rotate(-10deg) translateX(-50%);
+}
